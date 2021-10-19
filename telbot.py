@@ -6,10 +6,6 @@ import time
 os.system('cls')
 os.system('clear')
 
-
-
-
-
 # reading token :
 
 print (colored('Reading Your Bots Token From ', 'green')+colored('token.txt', 'yellow'))
@@ -38,9 +34,6 @@ print (colored('''1.Send Message To One User
 ch = input (colored('# ', 'red'))
 ch = str(ch)
 
-
-
-
 # wrong inputs :
 
 while (ch != '1' and ch != '2'):
@@ -60,10 +53,6 @@ How Can I Help You?
     ch = input (colored('# ', 'red'))
     ch = str(ch)
 
-
-
-    
-
 # sending message to one user :
 
 if (ch == '1'):
@@ -77,8 +66,6 @@ if (ch == '1'):
             print (colored('\nYour Message Sent Sucessfully\n', 'red', 'on_green'))
         else :
             print (colored('Sorry, We cant Send Your Message Now...\n', 'white', 'on_red')+colored('Please Try Again Later ):', 'red'))
-
-
 
 
 #sending message to all users :
@@ -103,8 +90,3 @@ if (ch == '2'):
                 print (colored('Faild To Send Message :', 'white', 'on_red')+' '+User_id)
         print (colored('Finished.', 'green'))    
         
-        
-
-
-
-
